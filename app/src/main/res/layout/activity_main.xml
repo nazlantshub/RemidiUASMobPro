@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="vertical"
+        app:layoutManager="LinearLayoutManager" />
+
+    <resources>
+        <string name="app_name">Affirmations</string>
+        <string name="affirmation1">1.Mark Lee</string>
+        <string name="affirmation2">2.Renjun Huang</string>
+        <string name="affirmation3">3.Jeno Lee</string>
+        <string name="affirmation4">4.Haechan Lee</string>
+        <string name="affirmation5">5.Nazla Natasha</string>
+        <string name="affirmation6">6.Jaemin</string>
+        <string name="affirmation7">7.Dream</string>
+        <string name="affirmation8">8.Chenleya</string>
+        <string name="affirmation9">9.Jisungie</string>
+        <string name="affirmation10">10.Andy Park</string>
+    </resources>
+
+</FrameLayout>
